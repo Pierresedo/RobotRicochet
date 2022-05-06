@@ -48,8 +48,8 @@ public class Board extends Application {
         Pane root = new Pane();
         root.setPrefSize(1080, 720);
 
-        bg = new Image("C:\\Users\\PIERRE SEDO\\Downloads\\Project-Java-master\\RobotRicochet\\src\\main\\java\\com\\example\\robotricochet\\img\\bg1.jpg");
-        Image bord = new Image("C:\\Users\\PIERRE SEDO\\Downloads\\Project-Java-master\\RobotRicochet\\src\\main\\java\\com\\example\\robotricochet\\img\\bord.jpg");
+        bg = new Image("bg1.jpg");
+        Image bord = new Image("bord.jpg");
         ImageView vbg = new ImageView(bg);
         root.getChildren().add(vbg);
 
@@ -82,7 +82,7 @@ public class Board extends Application {
                 cellgroup.getChildren().add(cell);
             }
         }
-       cellgroup.getChildren().addAll(ob1,ob2,ob3,ob4,ob5,ob6,ob7,ob8,ob11,ob12);//ajout des obstacles au plateau
+       cellgroup.getChildren().addAll(ob1,ob2,ob3,ob4,ob5,ob6,ob7,ob8,ob11,ob12,ob13);//ajout des obstacles au plateau
 
         return root;
     }

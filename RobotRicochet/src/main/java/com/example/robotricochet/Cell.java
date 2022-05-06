@@ -8,7 +8,7 @@ import javafx.scene.shape.Rectangle;
 
 
 public class Cell extends Rectangle {
-     Image cellule= new Image("C:\\Users\\PIERRE SEDO\\Downloads\\Project-Java-master\\RobotRicochet\\src\\main\\java\\com\\example\\robotricochet\\img\\cell.jpg");
+     Image cellule= new Image("cell.jpg");
 
     public Cell(int x, int y) {
         setHeight(Board.CELL_SIZE);
