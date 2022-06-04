@@ -1,2 +1,3 @@
 # Projet Ricochet Robots
- Amorce du projet
+Projet Ricochet Robots
+Groupe de : Francois HASCOAT, Robin LERDA, SEDO Pierre.
